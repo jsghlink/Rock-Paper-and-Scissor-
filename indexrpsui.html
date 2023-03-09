@@ -6,9 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROCK, PAPER and SCISSOR - UI</title>
     <link rel="stylesheet" href="cssrpsui/stylerpsui.css">
-    <script src="jsrpsui/scriptrpsui.js" defer></script>
+    <script src="jsrpsui/scriptrpsuicheck.js" defer></script>
 </head>
 <body>
+    <div class="container">
+
+        <div class ="section1container">
+            <div class="section1">
+                
+                <h2>
+                    Welcome to ROCK, PAPER and SCISSOR - UI!
+                </h2>
+                
+            </div>
+        </div>
     
+
+        <div class="section2container">
+            <div class="section2">
+                
+                    <label for="playername">PLAYER NAME: </label>
+                    <input type="text" id="playername" name="name" />
+                
+            </div>
+        </div>
+
+        <div class="section3container">
+            <div class="section3">
+
+                <div class="section3a">
+                    <img src="player.png" alt="Player One" id="playeroneimage"/>
+                    <p class="scorebox pbox">
+                        Player Score : <span id="playerscoreid" class="displayscore pscore">0</span>
+                    </p>
+                </div>
+
+                <div class="section3b">
+                    <img src="cpuplayer.png" alt="CPU Player" id="cpuimage"/>
+                    <p class="scorebox cpubox">
+                        CPU Score : <span id="cpuscoreid" class="displayscore cpuscore">0</span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section4container">
+            <div class="section4">
+
+                  <div class="item item1">
+                    <button class="button weapon1" id="rockweapon" type="button">
+                        <img src="rock.png" alt="Rock" id="rockweaponimage"/>
+                    </button>
+                    <p>Rock</p>
+                  </div>
+
+                  <div class="item item2">
+                    <button class="button weapon2" id="paperweapon" type="button">
+                        <img src="paper.png" alt="Paper" id="paperweaponimage"/>
+                    </button>
+                    <p>Paper</p>
+                  </div>
+
+                  <div class="item item3">
+                    <button class="button weapon3" id="scissorweapon" type="button">
+                        <img src="scissor.png" alt="Scissor" id="scissorweaponimage"/>
+                    </button>
+                    <p>Scissor</p>
+                  </div>
+                  
+            </div>
+        </div>
+
+        <div class="section5container">
+            <div class="section5">
+                <p class="rpsversion">
+                    Version 2.0
+                </p>
+                <!--<p class="rpscredit">
+                    Copyright © The Odessa Project
+                </p>-->
+            </div>
+        </div>
+
+</div>
+
 </body>
 </html>

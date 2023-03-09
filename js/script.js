@@ -9,7 +9,7 @@ console.log("Select game mode now...\n");
 
 let number = prompt("Press '1' to play a quick round. Press '2' for a best-of-three.\n");
 let pCounter = 0;
-    let compCounter = 0;
+let compCounter = 0;
 
 switch (number) {
     
@@ -19,7 +19,7 @@ switch (number) {
     
     let pSelect = prompt("Enter 'ROCK', 'PAPER' or 'SCISSOR'.\n");
 
-// add checking condition(s) here
+    // add checking condition(s) here
 
     console.log(`Ye fine yeoman ${playerName1}, you have decided to go with ${pSelect.toUpperCase()}!\n`);
     console.log("Time for the CPU to decide on its weapon...\n");
@@ -83,13 +83,13 @@ switch (number) {
 
     dispResult(pSelect, compVal);
 
-// console.log(random_item(items));
-// let ggg = prompt("Just enter something\n");
-// pcounter, cpucounter;
-// call function
-// if
-// begin again fucntion if same choices
-// console.log(`${compVal} has been selected by CPU.`);
+    // console.log(random_item(items));
+    // let ggg = prompt("Just enter something\n");
+    // pcounter, cpucounter;
+    // call function
+    // if
+    // begin again fucntion if same choices
+    // console.log(`${compVal} has been selected by CPU.`);
 
     break;
   
@@ -100,17 +100,16 @@ switch (number) {
     //let plSelect = prompt("Enter 'ROCK', 'PAPER' or 'SCISSOR'.\n");
 
    // console.log(`Ye fine yeoman ${playerName1}, you have decided to go with ${plSelect}!\n`);
-//    console.log("Time for the CPU to decide on its weapon...\n");
-
-  //  let arraytwo = ["ROCK", "PAPER", "SCISSOR"];
+   // console.log("Time for the CPU to decide on its weapon...\n");
+   //  let arraytwo = ["ROCK", "PAPER", "SCISSOR"];
 
    // let compuSelect = function (arraytwo) {
-     // return arraytwo[Math.floor(Math.random()*arraytwo.length)];
-    //};
+   // return arraytwo[Math.floor(Math.random()*arraytwo.length)];
+   //};
 
-    //let compuVal = compuSelect(arraytwo);
+   //let compuVal = compuSelect(arraytwo);
 
-    //console.log(`CPU has chosen to call upon ${compuVal}!\n`);
+   //console.log(`CPU has chosen to call upon ${compuVal}!\n`);
 
     let plCounter = 0;
     let compuCounter = 0;
