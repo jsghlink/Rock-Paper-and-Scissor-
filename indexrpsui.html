@@ -22,12 +22,18 @@
         </div>
     
 
-        <div class="section2container">
+        <!-- <div class="section2container">
             <div class="section2">
                 
                     <label for="playername">PLAYER NAME: </label>
                     <input type="text" id="playername" name="name" />
                 
+            </div>
+        </div> -->
+
+        <div class="between2and3container">
+            <div class="between2and3">
+                <p id="warriorname">Name of the brave soul.</p>
             </div>
         </div>
 
@@ -35,19 +41,31 @@
             <div class="section3">
 
                 <div class="section3a">
-                    <img src="player.png" alt="Player One" id="playeroneimage"/>
-                    <p class="scorebox pbox">
-                        Player Score : <span id="playerscoreid" class="displayscore pscore">0</span>
-                    </p>
+                    <img src="playersamujack2-removebg-preview.png" alt="Player One" id="playeroneimage"/>
+                    <span class="scorebox pbox" id="pboxid">
+                        Player Score : </span><span id="playerscoreid" class="displayscore pscore">0</span>
+                    <!-- </p> -->
+                </div>
+
+                <div class="section3beechka" id="section3beechkaid">
+                    <canvas id='pyro' class="pyroclass">
+
+                    </canvas>
                 </div>
 
                 <div class="section3b">
-                    <img src="cpuplayer.png" alt="CPU Player" id="cpuimage"/>
-                    <p class="scorebox cpubox">
-                        CPU Score : <span id="cpuscoreid" class="displayscore cpuscore">0</span>
-                    </p>
+                    <img src="cpuplayer-removebg-preview.png" alt="CPU Player" id="cpuimage"/>
+                    <span class="scorebox cpubox" id="cpuboxid">
+                        CPU Score : </span><span id="cpuscoreid" class="displayscore cpuscore">0</span>
+                    <!-- </p> -->
                 </div>
 
+            </div>
+        </div>
+
+        <div class ="between3and4container">
+            <div class="between3and4">
+                <p class="battlespeak" id="battletext">Battle text on every click.</p>
             </div>
         </div>
 
@@ -56,21 +74,21 @@
 
                   <div class="item item1">
                     <button class="button weapon1" id="rockweapon" type="button">
-                        <img src="rock.png" alt="Rock" id="rockweaponimage"/>
+                        <img src="rock-removebg-preview.png" alt="Rock" id="rockweaponimage"/>
                     </button>
                     <p>Rock</p>
                   </div>
 
                   <div class="item item2">
                     <button class="button weapon2" id="paperweapon" type="button">
-                        <img src="paper.png" alt="Paper" id="paperweaponimage"/>
+                        <img src="paper-removebg-preview.png" alt="Paper" id="paperweaponimage"/>
                     </button>
                     <p>Paper</p>
                   </div>
 
                   <div class="item item3">
                     <button class="button weapon3" id="scissorweapon" type="button">
-                        <img src="scissor.png" alt="Scissor" id="scissorweaponimage"/>
+                        <img src="scissorscimitar-removebg-preview.png" alt="Scissor" id="scissorweaponimage"/>
                     </button>
                     <p>Scissor</p>
                   </div>

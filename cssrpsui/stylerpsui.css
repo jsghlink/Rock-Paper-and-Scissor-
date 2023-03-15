@@ -1,8 +1,8 @@
 * {
     margin: 0px;
-    padding: 15px;
+    padding: 10px; /*15px  by default*/
     box-sizing: border-box;
-    /*border: 2px solid red;*/
+    /* border: 2px solid red; */
 }
 
 .container {
@@ -28,6 +28,8 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    font-size: 24px;
+    word-wrap: break-word;
 }
 
 .section2container {
@@ -49,6 +51,25 @@
 
 #playername {
    caret-color: rgb(148, 104, 46); /*did not work*/
+}
+
+.between2and3container {
+    
+    /*padding: 5px;*/
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    padding-bottom: 0px;
+    background-color: #1F2937;
+}
+
+.between2and3 {
+    /*background-color: #1F2937;*/
+    color: rgb(222, 184, 135);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size:22px;
 }
 
 .section3container {
@@ -73,7 +94,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40%; /*35vw;*/
+    width: 35vw; /*35vw;*/
 }
 
 .section3b {
@@ -81,7 +102,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40%; /*45vw;*/
+    width: 35vw; /*45vw;*/
+}
+
+.section3beechka {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 30vw;    
+}
+
+.pyroclass {
+    width: 380px;
+    height: 335px;
 }
 
 .section3a img{
@@ -97,10 +132,32 @@
 
 .scorebox {
     text-align: center;
+    /* display: inline-block; */
+    /* display:inline;   */
 }
 
 .displayscore {
     text-align: center;
+    /* display:inline; check this  */
+}
+
+.between3and4container {
+    
+    /*padding: 5px;*/
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    padding-top: 0px;
+    background-color: #1F2937;
+}
+
+.between3and4 {
+    /*background-color: #1F2937;*/
+    color: rgb(222, 184, 135);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size:22px;
 }
 
 .section4container {
@@ -108,7 +165,7 @@
     justify-content: center;
     background-color: #1F2937;
     /*background-color: white;*/
-    padding-top: 0px;
+    /*padding-top: 0px; check this again*/
 }
 
 .section4 {
