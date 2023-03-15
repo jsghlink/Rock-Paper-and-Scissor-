@@ -5,6 +5,7 @@
 // changes 4,5 in notes only on rock click
 // check Player Score: display - done in a different way
 // credits mention kar dena jo bhi elements borrow kiye ho net se
+// images etc path question ask boyo
 let rockaudio = new Audio("rocksound.mp3");
 let paperaudio = new Audio("papersound.mp3");
 let scissoraudio = new Audio("scissorsound.mp3");
